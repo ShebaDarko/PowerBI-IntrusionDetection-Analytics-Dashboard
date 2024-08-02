@@ -17,7 +17,7 @@ The dashboard is structured into the following pages:
 ## 1. 🛡️ Intrusion Detection Summary
 ![Intrusion Detection Summary](visuals/Exec_dashboards.png)
 The Intrusion Detection Summary page provides a high-level overview of the dataset used for intrusion detection. This includes:
-- Total dataset size
+
 - Number of normal and attack instances
 - Types of attacks
 
@@ -29,18 +29,18 @@ Visualizations on this page include:
 ## 2. 🔬 Classification Techniques
 ![Classification Techniques](visuals/Classificatn_techniques.png)
 
-The Classification Techniques page details the methods used for anomaly detection:
-- **k-Means Clustering**
+The Classification Techniques page details the methods used for anomaly detection classification that inlcudes:
+- **Unsupervised k-Means Clustering on supervised data to understand data disrtibution, identify  unusal outliers**
 - **Principal Component Analysis (PCA)**
 
-This section also includes images from the thesis results, particularly PCA plots, and reduces the high dimensionality to lower dimensioanlity to capture patterns and trends of attack types in data.
+This section also includes images from training results, particularly PCA plots, which reduces the high dimensionality to lower dimensioanlity to capture patterns and trends of attack types in data.
 
 ## 3. 🧠 Machine Learning with SNN
 ![Machine Learning with SNN](visuals/ml_classification.png)
 
-The SNN page presents the results of using a Spiking Neural Network for intrusion detection. Key components include:
+The Ml-snn  page presents the results of using a Sequential type of Neural Network for intrusion detection. Key components include:
 - Confusion matrix results
-- Tables showing false positives, true positives, and false negatives for top attacks
+- High, medium and low false positives, true positives, and false negatives values for top attacks that needs to be escalated.
 
 ## 4. 🔄 Machine Learning with RNN
 
@@ -48,12 +48,11 @@ The SNN page presents the results of using a Spiking Neural Network for intrusio
 
 The RNN page details the implementation and results of using a Recurrent Neural Network. This includes:
 - Confusion matrix plots
-- Tables showing false positives, true positives, and false negatives for top attacks
+- Tables an vlaues for high, medium and low false positives, true positives,false negatives for top attacks
 
 ## 5. 🤖 Machine Learning with MLP
 The MLP page covers the use of a Multilayer Perceptron for intrusion detection. This section contains:
-- Confusion matrix results
-- Tables showing false positives, true positives, and false negatives for top attacks
+- Confusion matrix results and  false positives, true positives, and false negatives rates for top attacks
 
 ## 6. 📈 Performance and Metrics
 ![Performance and Metrics](visuals/perf_.png)
