@@ -59,7 +59,7 @@ The Key Influencers page identifies and visualizes the most significant factors 
 - Causes of attack increases
 - Contributions to high false positive and false negative rates
 
-### 📥 Instructions to Access and Use the Dashboard
+## 📥 Instructions to Access and Use the Dashboard
 To access and use the Power BI dashboard:
 
 1. Clone the repository to your local machine:
