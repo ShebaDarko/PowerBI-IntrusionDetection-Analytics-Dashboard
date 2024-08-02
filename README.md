@@ -14,7 +14,7 @@ The dashboard is structured into the following pages:
 6. **Performance and Metrics**
 7. **Key Influencers**
 
-### 1. 🛡️ Intrusion Detection Summary
+## 1. 🛡️ Intrusion Detection Summary
 The Intrusion Detection Summary page provides a high-level overview of the dataset used for intrusion detection. This includes:
 - Total dataset size
 - Number of normal and attack instances
@@ -25,7 +25,7 @@ Visualizations on this page include:
 - A bar chart showing the distribution of attack types
 - A pie chart depicting the proportion of normal and attack instances
 
-### 2. 🔬 Classification Techniques
+## 2. 🔬 Classification Techniques
 The Classification Techniques page details the methods used for anomaly detection:
 - **Spiking Neural Network (SNN)**
 - **k-Means Clustering**
@@ -33,28 +33,28 @@ The Classification Techniques page details the methods used for anomaly detectio
 
 This section also includes images from the thesis results, particularly PCA plots, and highlights the top attack types.
 
-### 3. 🧠 Machine Learning with SNN
+## 3. 🧠 Machine Learning with SNN
 The SNN page presents the results of using a Spiking Neural Network for intrusion detection. Key components include:
 - Confusion matrix results
 - Tables showing false positives, true positives, and false negatives for top attacks
 
-### 4. 🔄 Machine Learning with RNN
+## 4. 🔄 Machine Learning with RNN
 The RNN page details the implementation and results of using a Recurrent Neural Network. This includes:
 - Confusion matrix plots
 - Tables showing false positives, true positives, and false negatives for top attacks
 
-### 5. 🤖 Machine Learning with MLP
+## 5. 🤖 Machine Learning with MLP
 The MLP page covers the use of a Multilayer Perceptron for intrusion detection. This section contains:
 - Confusion matrix results
 - Tables showing false positives, true positives, and false negatives for top attacks
 
-### 6. 📈 Performance and Metrics
+## 6. 📈 Performance and Metrics
 The Performance and Metrics page provides a comparative analysis of the different machine learning models used in the project. Visualizations include:
 - Accuracy curves
 - False positive and false negative rates
 - Performance comparison plots for SNN, RNN, and MLP models
 
-### 7. 🔍 Key Influencers
+## 7. 🔍 Key Influencers
 The Key Influencers page identifies and visualizes the most significant factors influencing the detection of intrusions. This analysis highlights:
 - Causes of attack increases
 - Contributions to high false positive and false negative rates
