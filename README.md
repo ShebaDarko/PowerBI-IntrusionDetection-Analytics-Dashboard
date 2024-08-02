@@ -37,6 +37,8 @@ The Classification Techniques page details the methods used for anomaly detectio
 This section also includes images from the thesis results, particularly PCA plots, and highlights the top attack types.
 
 ## 3. 🧠 Machine Learning with SNN
+![Machine Learning with SNN](visuals/ml_classification.png)
+
 The SNN page presents the results of using a Spiking Neural Network for intrusion detection. Key components include:
 - Confusion matrix results
 - Tables showing false positives, true positives, and false negatives for top attacks
