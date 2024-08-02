@@ -1,0 +1,23 @@
+Attack;True Positives;False Positives;False Negatives
+back;0;0;540
+buffer_overflow;0;0;12
+ftp_write;0;0;1
+guess_passwd;7;0;3
+imap;2;0;1
+ipsweep;318;31;8
+land;6;0;1
+loadmodule;0;0;2
+multihop;0;0;2
+neptune;26664;84;0
+nmap;21;0;31
+normal;24160;739;122
+perl;0;0;2
+phf;0;0;0
+pod;49;4;0
+portsweep;240;1;35
+rootkit;0;0;2
+satan;378;2;11
+smurf;70379;18;3
+spy;0;0;0
+teardrop;224;2;1
+warezclient;154;22;120
