@@ -27,7 +27,7 @@ Visualizations on this page include:
 - A pie chart depicting the proportion of normal and attack instances
 
 ## 2. 🔬 Classification Techniques
-![Classification Techniques](visuals/Classification_techniques.png)
+![Classification Techniques](visuals/Classificatn_techniques.png)
 
 The Classification Techniques page details the methods used for anomaly detection:
 - **Spiking Neural Network (SNN)**
