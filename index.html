@@ -7,66 +7,45 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
+            padding: 20px 0;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77cc6d 3px solid;
-        }
-        header a, header h1 {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 24px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: right;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .showcase {
-            min-height: 400px;
-            background: url('background.jpg') no-repeat 0 -400px;
-            text-align: center;
-            color: #fff;
-        }
-        .showcase h1 {
-            font-size: 55px;
-            margin-top: 100px;
-            margin-bottom: 10px;
-        }
-        .showcase p {
-            font-size: 20px;
-        }
-        .content {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .content .box {
-            flex: 1 1 300px;
-            margin: 20px;
-            padding: 20px;
+        section {
             background: #fff;
-            border: #ccc 1px solid;
+            margin: 20px 0;
+            padding: 20px;
             border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .content img {
+        section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        section p {
+            margin-bottom: 20px;
+        }
+        section img {
+            display: block;
+            margin: 20px auto;
             max-width: 100%;
             height: auto;
         }
@@ -74,9 +53,12 @@
             background: linear-gradient(to right, #e0ac69, #d7a98c, #d0a7a7, #cba5c4);
             color: #fff;
             text-align: center;
-            padding: 20px;
-            margin-top: 20px;
+            padding: 10px 0;
             position: relative;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -86,56 +68,81 @@
             <h1>Intrusion Detection Dashboard</h1>
         </div>
     </header>
-    <section class="showcase">
-        <div class="container">
-            <h1>Welcome to the Intrusion Detection Dashboard</h1>
-            <p>A comprehensive analysis of network intrusion data using Power BI and machine learning techniques.</p>
-        </div>
-    </section>
     <div class="container">
-        <div class="content">
-            <div class="box">
-                <h2>Intrusion Detection Summary</h2>
-                <p>An overview of the dataset, including total size, normal instances, and attack types.</p>
-                <img src="visuals/summary.png" alt="Intrusion Detection Summary">
-            </div>
-            <div class="box">
-                <h2>Classification Techniques</h2>
-                <p>Methods used for anomaly detection, including SNN, k-Means, and PCA.</p>
-                <img src="visuals/Classification_techniques.png" alt="Classification Techniques">
-            </div>
-            <div class="box">
-                <h2>Machine Learning with SNN</h2>
-                <p>Results from using a Spiking Neural Network for intrusion detection.</p>
-                <img src="visuals/ml_classification.png" alt="Machine Learning with SNN">
-            </div>
-            <div class="box">
-                <h2>Machine Learning with RNN</h2>
-                <p>Implementation and results of using a Recurrent Neural Network.</p>
-                <img src="visuals/ml rnn.png" alt="Machine Learning with RNN">
-            </div>
-            <div class="box">
-                <h2>Machine Learning with MLP</h2>
-                <p>Using a Multilayer Perceptron for intrusion detection.</p>
-                <img src="visuals/mlp_results.png" alt="Machine Learning with MLP">
-            </div>
-            <div class="box">
-                <h2>Performance and Metrics</h2>
-                <p>Comparative analysis of different machine learning models.</p>
-                <img src="visuals/performance_metrics.png" alt="Performance and Metrics">
-            </div>
-            <div class="box">
-                <h2>Key Influencers</h2>
-                <p>Factors influencing the detection of intrusions.</p>
-                <img src="visuals/key_influencers.png" alt="Key Influencers">
-            </div>
-        </div>
+        <section>
+            <h2>Intrusion Detection Summary</h2>
+            <p>The Intrusion Detection Summary page provides a high-level overview of the dataset used for intrusion detection. This includes:</p>
+            <ul>
+                <li>Total dataset size</li>
+                <li>Number of normal and attack instances</li>
+                <li>Types of attacks</li>
+            </ul>
+            <p>Visualizations on this page include a table summarizing the dataset, a bar chart showing the distribution of attack types, and a pie chart depicting the proportion of normal and attack instances.</p>
+            <img src="visuals/summary.png" alt="Intrusion Detection Summary">
+        </section>
+        <section>
+            <h2>Classification Techniques</h2>
+            <p>The Classification Techniques page details the methods used for anomaly detection:</p>
+            <ul>
+                <li>Spiking Neural Network (SNN)</li>
+                <li>k-Means Clustering</li>
+                <li>Principal Component Analysis (PCA)</li>
+            </ul>
+            <p>This section also includes images from the thesis results, particularly PCA plots, and highlights the top attack types.</p>
+            <img src="visuals/Classification_techniques.png" alt="Classification Techniques">
+        </section>
+        <section>
+            <h2>Machine Learning with SNN</h2>
+            <p>The SNN page presents the results of using a Spiking Neural Network for intrusion detection. Key components include:</p>
+            <ul>
+                <li>Confusion matrix results</li>
+                <li>Tables showing false positives, true positives, and false negatives for top attacks</li>
+            </ul>
+            <img src="visuals/ml_classification.png" alt="Machine Learning with SNN">
+        </section>
+        <section>
+            <h2>Machine Learning with RNN</h2>
+            <p>The RNN page details the implementation and results of using a Recurrent Neural Network. This includes:</p>
+            <ul>
+                <li>Confusion matrix plots</li>
+                <li>Tables showing false positives, true positives, and false negatives for top attacks</li>
+            </ul>
+            <img src="visuals/ml rnn.png" alt="Machine Learning with RNN">
+        </section>
+        <section>
+            <h2>Machine Learning with MLP</h2>
+            <p>The MLP page covers the use of a Multilayer Perceptron for intrusion detection. This section contains:</p>
+            <ul>
+                <li>Confusion matrix results</li>
+                <li>Tables showing false positives, true positives, and false negatives for top attacks</li>
+            </ul>
+            <img src="visuals/mlp_results.png" alt="Machine Learning with MLP">
+        </section>
+        <section>
+            <h2>Performance and Metrics</h2>
+            <p>The Performance and Metrics page provides a comparative analysis of the different machine learning models used in the project. Visualizations include:</p>
+            <ul>
+                <li>Accuracy curves</li>
+                <li>False positive and false negative rates</li>
+                <li>Performance comparison plots for SNN, RNN, and MLP models</li>
+            </ul>
+            <img src="visuals/performance_metrics.png" alt="Performance and Metrics">
+        </section>
+        <section>
+            <h2>Key Influencers</h2>
+            <p>The Key Influencers page identifies and visualizes the most significant factors influencing the detection of intrusions. This analysis highlights:</p>
+            <ul>
+                <li>Causes of attack increases</li>
+                <li>Contributions to high false positive and false negative rates</li>
+            </ul>
+            <img src="visuals/key_influencers.png" alt="Key Influencers">
+        </section>
     </div>
     <footer>
-        <p>Contact Information: <br>
-            Name: Your Name <br>
-            Email: your.email@example.com <br>
-            LinkedIn: <a href="your_linkedin_profile" style="color: #fff;">Your LinkedIn Profile</a>
+        <p>Contact Information:<br>
+            Name: Your Name<br>
+            Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+            LinkedIn: <a href="your_linkedin_profile">Your LinkedIn Profile</a>
         </p>
     </footer>
 </body>
