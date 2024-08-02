@@ -30,11 +30,10 @@ Visualizations on this page include:
 ![Classification Techniques](visuals/Classificatn_techniques.png)
 
 The Classification Techniques page details the methods used for anomaly detection:
-- **Spiking Neural Network (SNN)**
 - **k-Means Clustering**
 - **Principal Component Analysis (PCA)**
 
-This section also includes images from the thesis results, particularly PCA plots, and highlights the top attack types.
+This section also includes images from the thesis results, particularly PCA plots, and reduces the high dimensionality to lower dimensioanlity to capture patterns and trends of attack types in data.
 
 ## 3. 🧠 Machine Learning with SNN
 ![Machine Learning with SNN](visuals/ml_classification.png)
