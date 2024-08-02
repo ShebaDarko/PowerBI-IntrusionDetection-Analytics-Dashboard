@@ -44,6 +44,7 @@ The SNN page presents the results of using a Spiking Neural Network for intrusio
 - Tables showing false positives, true positives, and false negatives for top attacks
 
 ## 4. 🔄 Machine Learning with RNN
+![Machine Learning with RNN](visuals/ml rnn.png)
 The RNN page details the implementation and results of using a Recurrent Neural Network. This includes:
 - Confusion matrix plots
 - Tables showing false positives, true positives, and false negatives for top attacks
