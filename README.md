@@ -15,6 +15,7 @@ The dashboard is structured into the following pages:
 7. **Key Influencers**
 
 ## 1. 🛡️ Intrusion Detection Summary
+![Intrusion Detection Summary](visuals/Exec_dashboards.png)
 The Intrusion Detection Summary page provides a high-level overview of the dataset used for intrusion detection. This includes:
 - Total dataset size
 - Number of normal and attack instances
