@@ -57,6 +57,7 @@ The MLP page covers the use of a Multilayer Perceptron for intrusion detection. 
 - Tables showing false positives, true positives, and false negatives for top attacks
 
 ## 6. 📈 Performance and Metrics
+![Performance and Metrics](visuals/perf_.png)
 The Performance and Metrics page provides a comparative analysis of the different machine learning models used in the project. Visualizations include:
 - Accuracy curves
 - False positive and false negative rates
