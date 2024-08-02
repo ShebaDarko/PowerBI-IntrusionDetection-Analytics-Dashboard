@@ -64,6 +64,7 @@ The Performance and Metrics page provides a comparative analysis of the differen
 - Performance comparison plots for SNN, RNN, and MLP models
 
 ## 7. 🔍 Key Influencers
+![Key Influencers](visuals/key_indicators.png)
 The Key Influencers page identifies and visualizes the most significant factors influencing the detection of intrusions. This analysis highlights:
 - Causes of attack increases
 - Contributions to high false positive and false negative rates
